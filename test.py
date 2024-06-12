@@ -1,12 +1,12 @@
 
 
-def calculate_sum(a, b):
+ calculate_sum(a, b):
     sum = a + b
     return sum
 
 def main():
     # Intentional bug: undeclared variable 'x'
-    result = calculate_sum(x, 5)
+    result = calculate_sum(x 5)
     
     # Intentional bug: dividing by zero
     divisor = 0
