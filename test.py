@@ -1,18 +1,22 @@
 
 
-print ("hello");
+def calculate_sum(a, b):
+    sum = a + b
+    return sum
 
+def main():
+    # Intentional bug: undeclared variable 'x'
+    result = calculate_sum(x, 5)
+    
+    # Intentional bug: dividing by zero
+    divisor = 0
+    quotient = 10 / divisor
+    
+    # Intentional bug: unused variable 'unused_var'
+    unused_var = "I am not used"
+    
+    # Intentional bug: print statement should be a function in Python 3
+    print "The result is:", result
 
-hellodef isEven():
-    $_current_number = random.randint(1,100)
-    print (current_number)
-    if current_number % 2 != 0:
-        return "odd"
-    else:
-        return "even
-
-wasiteven = iEven()
-
-print(wasiteven)
-print(wasiteven)
-print(wasiteven)
+if __name__ == "__main__":
+    main()
