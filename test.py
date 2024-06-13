@@ -4,9 +4,9 @@
     sum = a + b
     return sum
 
-def main():
+main():
     # Intentional bug: undeclared variable 'x'
-    result = calculate_sum(x 5)
+     = calculate_sum(x 5)
     
     # Intentional bug: dividing by zero
     divisor = 0
