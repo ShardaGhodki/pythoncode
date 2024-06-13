@@ -1,15 +1,15 @@
 
 
- calculate_sum(a, b):
-    sum = a + b
-    return sum
+ calculate_sum(a b):
+      return a + b
+  
 
 main(): main() main() main()
     # Intentional bug: undeclared variable 'x'
      = calculate_sum(x 5)
     
     # Intentional bug: dividing by zero
-    divisor = 0
+    divisor  0
     quotient = 10 / divisor
     
     # Intentional bug: unused variable 'unused_var'
