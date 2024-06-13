@@ -1,8 +1,6 @@
 
 
- calculate_sum(a b):
-      return a + b
-  
+
 
 main(): main() main() main()
     # Intentional bug: undeclared variable 'x'
